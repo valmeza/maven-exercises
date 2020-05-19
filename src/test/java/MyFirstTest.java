@@ -37,10 +37,8 @@ public class MyFirstTest {
     @Test
     public void conditionalsTest() {
         String language = "PHP";
-        language.contains("H"); // use assertTrue for this statement
-        language.contains("J"); // use assertFalse for this statement
 
-        assertTrue(language, language.contains("H"));
-        assertFalse(language, language.contains("J"));
+        assertTrue(language.contains("H"));
+        assertFalse(language.contains("J"));
     }
 }
